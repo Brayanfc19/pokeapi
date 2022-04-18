@@ -1,0 +1,17 @@
+.container{
+    height: 80px;
+    background: var(--background1);
+    color: var(--font1);
+    display: flex;
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.container nav{
+    display: flex;
+    grid-gap: 10px;
+}
+.container nav li{
+    padding: 5px 10px;
+    background: #125;
+}

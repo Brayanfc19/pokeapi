@@ -1,0 +1,27 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 7em;
+    height: 90vh;
+}
+.container .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-gap: 8px;
+}
+.container .content h1{
+    font-size: 3.5em;
+    line-height: 0.85;
+}
+.container .content div input{
+    padding: 5px;
+    width: 50%;
+}
+.container .contentImg{
+    display: flex;justify-content: center;
+    align-items: center;
+}
+.container .contentImg img{
+    height: 350px;
+}

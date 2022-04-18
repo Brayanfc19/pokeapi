@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0em 0 7em 0;
+    grid-gap: 20px;
+}
+.contentCards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-gap: 15px;
+}
+.card{
+    background-color: deepskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 20px;
+    padding: 10px;
+}
+.card img{
+    width: 150px;
+    height: 150px;
+}
+.card h3{
+    text-transform: capitalize;
+}
+.card button{
+    padding: 10px;
+}
