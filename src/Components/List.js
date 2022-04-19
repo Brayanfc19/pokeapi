@@ -25,15 +25,15 @@ const List = () => {
           imagen:sprites.other.dream_world.front_default
         }
         setPokemons(old => ([...old, pokemonObjet]))
-        gsap.set("#efect1",{opacity:0})
+        gsap.set("#efect1",{opacity:0, y:500,})
+        gsap.to("#efect1",{
+            opacity:1, 
+            y:0, 
+            ease:"bounce", 
+            stagger:"0.2",
+        })
       } 
-      gsap.set("#efect1",{opacity:0, y:500,})
-      gsap.to("#efect1",{
-          opacity:1, 
-          y:0, 
-          ease:"bounce", 
-          stagger:"0.2",
-      })
+
     }
 
     catch (error) {

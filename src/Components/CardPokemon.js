@@ -56,7 +56,7 @@ const CardPokemon = () => {
             </div>
           )
         }
-        <Link to={"/"} >Inicio</Link>
+        <Link to={"/pokeapi"} >Inicio</Link>
       </div>
     )
   }
