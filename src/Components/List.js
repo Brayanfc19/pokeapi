@@ -47,7 +47,7 @@ const List = () => {
         <div className={style.contentCards}>
           {
             pokemons.map( ({nombre, imagen, id}) => (
-                <Link  to={`/${nombre}`} key={id} className={style.card} id="efect1">
+                <Link  to={`/pokeapi/${nombre}`} key={id} className={style.card} id="efect1">
                   <h3>{nombre}</h3>
                   <img src={imagen} />
                   <button>Detalles</button>
