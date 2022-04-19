@@ -1,6 +1,6 @@
 {
-  "homepage":"https://brayanfc19.github.io/pokeapi/",
-  "name": "proyecto",
+  "homepage":"https://brayanfc19.github.io/pokeapi",
+  "name": "Brayanfc19",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
