@@ -1,8 +1,9 @@
 import {  useEffect, useState } from "react"
 import { Link, useParams } from "react-router-dom"
 import style from "../styles/Card.module.css"
-import Spinner from "./Spinner"
+import Spinner from "../Components/Spinner"
 import gsap from "gsap"
+import Error404 from "./Error404"
 
 const CardPokemon = () => {
   const {nombre} = useParams()
@@ -62,7 +63,7 @@ const CardPokemon = () => {
   }
   else{
     return(
-      <div>Error404</div>
+      <Error404 />
     )
   }
 }

@@ -26,7 +26,7 @@ const Main = () => {
             </div>
         </div>
         <div className={style.contentImg}>
-          <img src={img1} />
+          <img src={img1} alt="pokemon"/>
         </div>
     </main>
   )

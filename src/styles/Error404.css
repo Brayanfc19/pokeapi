@@ -1,0 +1,13 @@
+.container404{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-gap: 10px;
+}
+.container404 a{
+    background: rgb(72, 33, 145);
+    padding: 10px;
+    color: #fff;
+}

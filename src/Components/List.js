@@ -30,7 +30,7 @@ const List = () => {
             opacity:1, 
             y:0, 
             ease:"bounce", 
-            stagger:"0.2",
+            stagger:"0.1",
         })
       } 
 
