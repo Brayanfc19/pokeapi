@@ -13,5 +13,7 @@
 }
 .container nav li{
     padding: 5px 10px;
-    background: #125;
+}
+.container nav li> a, button{
+    color: var(--font1);
 }

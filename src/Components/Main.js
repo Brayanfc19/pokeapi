@@ -22,6 +22,7 @@ const Main = () => {
             <h1>Encuentra a tu Pokemon</h1>
             <p>El sitio de pokemones</p>
             <div>
+              <i class="fa-solid fa-magnifying-glass"></i>
                 <input type="search" placeholder="Busca" onChange={handleChange}/>
             </div>
         </div>

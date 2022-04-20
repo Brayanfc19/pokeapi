@@ -14,12 +14,14 @@
     grid-gap: 15px;
 }
 .card{
-    background-color: deepskyblue;
+    background: var(--background1);
     display: flex;
     flex-direction: column;
     align-items: center;
     grid-gap: 20px;
-    padding: 10px;
+    padding: 15px 10px;
+    width: 180px;
+    border-radius: 5px;
 }
 .card img{
     width: 150px;
@@ -27,7 +29,13 @@
 }
 .card h3{
     text-transform: capitalize;
+    color: var(--font1);
+    font-size: 22px;
 }
 .card button{
-    padding: 10px;
+    padding: 8px 10px;
+    background: var(--font1);
+    border-radius: 5px;
+    font-size: 14px;
+    color: var(--background1)
 }

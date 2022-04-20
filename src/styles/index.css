@@ -16,12 +16,17 @@ a{
 button{
     border: none;
     outline: none;
+    background: transparent;
 }
 li{
     list-style-type: none;
 }
 
-body{
-    --background1: #123;
-    --font1:#fff;
+.ligth{
+    --background1: #ffc933;
+    --font1:#1c2038;
+ }
+ .dark{
+    --background1: rgb(28, 32, 56);
+    --font1:rgb(255, 201, 51);
  }
