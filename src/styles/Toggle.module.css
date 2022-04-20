@@ -1,4 +1,36 @@
 .container{
-    width: 20px;
     background: var(--font1);
+    border-radius: 20px;
+    position: relative;
+    width: 40px; height: 20px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid var(--font1);
+}
+.container > div{
+    transition: 0.2s;
+    content: "";
+    padding: 10px;
+    background-color: var(--background1);
+    position: absolute;
+    border-radius: 50%;
+    left: 0%;
+}
+
+
+.container input{
+    top: 50%;left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px; height: 20px;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.container i{
+    color: var(--background1);
+    padding: 2px;
+}
+.container i:nth-child(1){
+    border-radius: 50%;
+
 }

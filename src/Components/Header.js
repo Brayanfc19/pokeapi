@@ -10,10 +10,14 @@ const Header = ({handleClick}) => {
     <header className={style.container}>
       <h2>Logo</h2>
       <nav>
-        <li> <Link to="/pokeapi/">Inicio</Link></li>
+        <Link to="/pokeapi/">Inicio</Link>
         <li>item</li>
         <li>item</li>
-        <li className={toggle.container}><input type="checkbox" onClick={click}  /></li>
+        <li className={toggle.container}>
+          <i className="fa-solid fa-magnifying-glass"></i>
+          <input type="checkbox" onClick={click}  />
+          
+        </li>
       </nav>
     </header>
   )

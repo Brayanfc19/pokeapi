@@ -30,3 +30,9 @@ li{
     --background1: rgb(28, 32, 56);
     --font1:rgb(255, 201, 51);
  }
+.moverigth{
+    left: 50% !important;
+}
+.moveleft{
+    left: 0% !important;
+}

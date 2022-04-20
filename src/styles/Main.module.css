@@ -4,6 +4,7 @@
     padding: 0 7em;
     height: 90vh;
     background: var(--background1);
+    transition: 0.2s;
 }
 @media screen and (max-width:1000px ) {
     .container{
@@ -24,37 +25,17 @@
     justify-content: center;
     grid-gap: 15px;
 }
-.container .content h1{
-    font-size: 4em;
-    line-height: 0.85;
-    color: var(--font1);
-}
-.container .content div{
-    display: flex;
-    align-items: center;
-    grid-gap: 10px;
-    border: 1px solid var(--font1);
-    width: fit-content;
-    border-radius: 3px;
-    padding: 10px;
-}
 @media screen and (max-width:1000px ) {
     .container .content {
         align-items: center;
     }
 }
-.container .content div i{
+.container .content h1{
+    font-size: 4em;
+    line-height: 0.85;
     color: var(--font1);
 }
-.container .content div input{
-    font-size: 16px;
-    border: none;
-    background: transparent;
-    color: var(--font1);
-}
-.container .content div input::placeholder{
-    color: var(--font1);
-}
+
 .container .contentImg{
     display: flex;justify-content: center;
     align-items: center;

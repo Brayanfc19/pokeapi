@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    align-items: center;
+    grid-gap: 10px;
+    background: #fff3;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+.container i{
+    color: var(--font1);
+}
+.container input{
+    font-size: 16px;
+    border: none;
+    background: transparent;
+    color: var(--font1);
+}
+.container input::placeholder{
+    color: var(--font1);
+}
