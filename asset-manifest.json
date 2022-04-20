@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/pokeapi/static/css/main.840d41a1.css",
-    "main.js": "/pokeapi/static/js/main.69124916.js",
+    "main.css": "/pokeapi/static/css/main.6badde22.css",
+    "main.js": "/pokeapi/static/js/main.95b42d0b.js",
     "static/media/pokebola.png": "/pokeapi/static/media/pokebola.99bbe6097214ced14caa.png",
     "index.html": "/pokeapi/index.html",
-    "main.840d41a1.css.map": "/pokeapi/static/css/main.840d41a1.css.map",
-    "main.69124916.js.map": "/pokeapi/static/js/main.69124916.js.map"
+    "main.6badde22.css.map": "/pokeapi/static/css/main.6badde22.css.map",
+    "main.95b42d0b.js.map": "/pokeapi/static/js/main.95b42d0b.js.map"
   },
   "entrypoints": [
-    "static/css/main.840d41a1.css",
-    "static/js/main.69124916.js"
+    "static/css/main.6badde22.css",
+    "static/js/main.95b42d0b.js"
   ]
 }
